@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Bahiana|Barrio|Indie+Flower|Pangolin');
+body {
+  text-align: center;
+  background: url("back2.png");
+  background-size: contain;
+  background-attachment: fixed;
+  color: #fff;
+ 
+}
+.background{
+ background: rgba(0, 0, 0, .8);
+ padding: 20px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+#red{
+  color: #cd201f;
+}
+main h1 {
+  font-family: 'Barrio', cursive;
+  font-size: 8rem;
+}
+.navbar-inverse .navbar-brand{
+color: #fff;
+font-family: 'Barrio', cursive;
+}
+h1, h2 {
+  font-family: 'Barrio', cursive;
+  text-shadow: 4px 4px 0px #8B4B00;
+  padding: 15px 0 0 0;
+  
+}
+
+#social i {
+  font-size: 3em;
+}
+
+#dif{
+  background: #023A58;
+}
+
+#contact {
+  color:#fff;
+}
+.first-box {
+  padding: 10px;
+ border-right: 1px solid #fff;
+}
+
+.second-box {
+  padding: 10px;
+ border-right: 1px solid #fff;
+}
+
+.third-box {
+  padding: 10px;
+ border-right: 1px solid #fff;
+}
+
+.fourth-box {
+  padding: 10px;
+ 
+}
+.navbar-inverse .navbar-nav>li>a{
+  color: #fff;
+}
+.navbar,
+.dropdown-menu {
+  background:rgba(0,0,0,0.8);
+  border: none;
+}
+
+.nav li:hover:nth-child(8n+1),
+.nav li.active:nth-child(8n+1) {
+  border-bottom: #FECF71 3px solid;
+}
+
+.nav li:hover:nth-child(8n+2),
+.nav li.active:nth-child(8n+2) {
+  border-bottom: #F7FDCA 3px solid;
+}
+
+.nav li:hover:nth-child(8n+3),
+.nav li.active:nth-child(8n+3) {
+  border-bottom: red 3px solid;
+}
+
+.navbar-toggle .icon-bar {
+  color: #fff;
+  background: #fff;
+}
+footer{
+  padding: 60px 0 0 0;
+}
+@media (max-width: 662px) {
+  main h1 {
+  font-family: 'Barrio', cursive;
+  font-size: 4rem;
+}
+.second-box {
+  padding: 10px;
+ border-right: 0px solid #fff;
+}
+}
